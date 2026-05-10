@@ -1,0 +1,38 @@
+## Visual Studio / VS Code
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/*
+!.vscode/settings.json
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+## NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## Docker / tooling
+**/.docker/
+
+## User secrets / local env (never commit secrets)
+**/appsettings.*.local.json
+secrets.json
+
+## OS
+Thumbs.db
+Desktop.ini
